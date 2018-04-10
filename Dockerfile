@@ -44,6 +44,4 @@ RUN chmod -R +x /scripts
 
 RUN /scripts/installBinary.sh
 
-HEALTHCHECK --interval=200s --timeout=100s CMD /scripts/healthcheck.sh || exit 1
-
 CMD [ "/scripts/start.sh" ]
