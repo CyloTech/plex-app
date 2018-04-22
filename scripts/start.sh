@@ -15,6 +15,8 @@ if [ ! -d "${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}" ]; then
   chown plex:plex "${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}"
 fi
 
+chown -R plex:plex /config
+
 if [ ! -f /etc/app_configured ]; then
     /scripts/plex-first-run.sh
 fi
@@ -30,4 +32,4 @@ fi
 
 export LD_LIBRARY_PATH=/usr/lib/plexmediaserver
 
-exec /usr/lib/plexmediaserver/Plex\ Media\ Server
+exec /bin/su -s /bin/bash -c "TERM=xterm /usr/lib/plexmediaserver/Plex\ Media\ Server" plex
