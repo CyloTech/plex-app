@@ -17,6 +17,10 @@ fi
 
 chown -R plex:plex /config
 
+if [ -f /config/Library/Application\ Support/Plex\ Media\ Server/plexmediaserver.pid ]; then
+    rm -f /config/Library/Application\ Support/Plex\ Media\ Server/plexmediaserver.pid
+fi
+
 if [ ! -f /etc/app_configured ]; then
     /scripts/plex-first-run.sh
 fi
