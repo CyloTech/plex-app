@@ -23,7 +23,9 @@ fi
 
 if [ ! -f /etc/app_configured ]; then
     /scripts/plex-first-run.sh
-else
+fi
+
+if [ -f /config/Library/Application\ Support/Plex\ Media\ Server/Preferences.xml ]; then
     # Reset the port in case of update/migration
     sed -i -E 's/ManualPortMappingPort="[0-9]*"/ManualPortMappingPort="'${EXTERNAL_PORT}'"/g' /config/Library/Application\ Support/Plex\ Media\ Server/Preferences.xml
 fi
