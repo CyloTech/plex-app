@@ -23,6 +23,9 @@ fi
 
 if [ ! -f /etc/app_configured ]; then
     /scripts/plex-first-run.sh
+else
+    # Reset the port in case of update/migration
+    sed -i -E 's/ManualPortMappingPort="[0-9]*"/ManualPortMappingPort="'${EXTERNAL_PORT}'"/g' /config/Library/Application\ Support/Plex\ Media\ Server/Preferences.xml
 fi
 
 /scripts/plex-update.sh
@@ -31,7 +34,11 @@ fi
 
 if [ ! -f /etc/app_configured ]; then
     touch /etc/app_configured
-    curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST "https://api.cylo.io/v1/apps/installed/$INSTANCE_ID"
+
+    until [[ $(curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST "https://api.cylo.io/v1/apps/installed/${INSTANCE_ID}" | grep '200') ]]
+        do
+        sleep 5
+    done
 fi
 
 export LD_LIBRARY_PATH=/usr/lib/plexmediaserver
