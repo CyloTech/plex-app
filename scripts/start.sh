@@ -43,6 +43,11 @@ if [ ! -f /etc/app_configured ]; then
     done
 fi
 
-export LD_LIBRARY_PATH=/usr/lib/plexmediaserver/lib
+installedVersion=$(dpkg-query -W -f='${Version}' plexmediaserver 2> /dev/null)
+if [[ ${installedVersion} == "1.14"* ]]; then
+    export LD_LIBRARY_PATH=/usr/lib/plexmediaserver
+else
+    export LD_LIBRARY_PATH=/usr/lib/plexmediaserver/lib
+fi
 
 exec /bin/su -s /bin/bash -c "TERM=xterm /usr/lib/plexmediaserver/Plex\ Media\ Server" plex
