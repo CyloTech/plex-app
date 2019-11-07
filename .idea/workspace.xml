@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c0726b3-da38-4e62-8045-64660e125c4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.sh" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/start.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/plex-first-run.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/plex-update.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="13" selection-start-line="23" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/installBinary.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/plex-common.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>users</find>
+      <find>common</find>
+      <find>ffmpeg</find>
+      <find>PORT</find>
+      <find>version</find>
+      <find>/usr/lib/plexmediaserver</find>
+      <find>beta</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/healthcheck.sh" />
+        <option value="$PROJECT_DIR$/scripts/plex-first-run.sh" />
+        <option value="$PROJECT_DIR$/scripts/installBinary.sh" />
+        <option value="$PROJECT_DIR$/scripts/plex-update.sh" />
+        <option value="$PROJECT_DIR$/scripts/start.sh" />
+        <option value="$PROJECT_DIR$/scripts/plex-common.sh" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="y" value="-506" />
+    <option name="width" value="1080" />
+    <option name="height" value="1897" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c0726b3-da38-4e62-8045-64660e125c4f" name="Default" comment="" />
+      <created>1522261170464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522261170464</updated>
+      <workItem from="1522261173012" duration="6012000" />
+      <workItem from="1523353690232" duration="1369000" />
+      <workItem from="1523648714446" duration="329000" />
+      <workItem from="1524432984057" duration="488000" />
+      <workItem from="1526027523808" duration="1048000" />
+      <workItem from="1527098739070" duration="456000" />
+      <workItem from="1527351604053" duration="106000" />
+      <workItem from="1527384105753" duration="71000" />
+      <workItem from="1527503954324" duration="175000" />
+      <workItem from="1527695088832" duration="372000" />
+      <workItem from="1527775392646" duration="1776000" />
+      <workItem from="1528375203740" duration="599000" />
+      <workItem from="1529336382429" duration="139000" />
+      <workItem from="1530003176223" duration="493000" />
+      <workItem from="1530269832478" duration="98000" />
+      <workItem from="1531242690052" duration="344000" />
+      <workItem from="1532503170794" duration="597000" />
+      <workItem from="1533550559939" duration="507000" />
+      <workItem from="1535744867154" duration="298000" />
+      <workItem from="1537194493149" duration="53000" />
+      <workItem from="1545233413450" duration="241000" />
+      <workItem from="1545656251833" duration="170000" />
+      <workItem from="1546631872265" duration="623000" />
+      <workItem from="1548603864765" duration="2929000" />
+      <workItem from="1549367074505" duration="2000" />
+      <workItem from="1549823808064" duration="1327000" />
+      <workItem from="1549961778378" duration="1811000" />
+      <workItem from="1551346107274" duration="35000" />
+      <workItem from="1551346245140" duration="582000" />
+      <workItem from="1551877747713" duration="375000" />
+      <workItem from="1551974329387" duration="616000" />
+      <workItem from="1551983309695" duration="598000" />
+      <workItem from="1552408688352" duration="323000" />
+      <workItem from="1552411739286" duration="279000" />
+      <workItem from="1552651473867" duration="374000" />
+      <workItem from="1552899777807" duration="547000" />
+      <workItem from="1553098985438" duration="126000" />
+      <workItem from="1553934273093" duration="569000" />
+      <workItem from="1554311991604" duration="138000" />
+      <workItem from="1554711506710" duration="406000" />
+      <workItem from="1554799711041" duration="107000" />
+      <workItem from="1554828576268" duration="560000" />
+      <workItem from="1554883031066" duration="251000" />
+      <workItem from="1555258671707" duration="736000" />
+      <workItem from="1556548280278" duration="402000" />
+      <workItem from="1557590281906" duration="904000" />
+      <workItem from="1557908907356" duration="725000" />
+      <workItem from="1558284387121" duration="713000" />
+      <workItem from="1558736016629" duration="158000" />
+      <workItem from="1558780176728" duration="303000" />
+      <workItem from="1558996825387" duration="60000" />
+      <workItem from="1559030892932" duration="346000" />
+      <workItem from="1559205832684" duration="351000" />
+      <workItem from="1559603736062" duration="77000" />
+      <workItem from="1559841246895" duration="496000" />
+      <workItem from="1561777095706" duration="125000" />
+      <workItem from="1561895615370" duration="134000" />
+      <workItem from="1561896379440" duration="361000" />
+      <workItem from="1563361068064" duration="510000" />
+      <workItem from="1563362580304" duration="167000" />
+      <workItem from="1563362823809" duration="498000" />
+      <workItem from="1563442715950" duration="416000" />
+      <workItem from="1563450560416" duration="424000" />
+      <workItem from="1563806695305" duration="26000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1522312157262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522312157262</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove health check">
+      <created>1523357336716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523357336716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Start using plex user">
+      <created>1524433550434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524433550434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix pid error">
+      <created>1526121601526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526121601526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update">
+      <created>1549364805244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549364805244</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update">
+      <created>1549366038378</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549366038378</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update">
+      <created>1549823950558</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549823950558</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update">
+      <created>1549824076855</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549824076855</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update">
+      <created>1549876934976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549876934976</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36251000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="-529" width="1080" height="1920" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2177264" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33846155" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Floobits" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Remove health check" />
+    <MESSAGE value="Start using plex user" />
+    <MESSAGE value="Fix pid error" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sources/supervisord.conf" />
+    <entry file="file://$PROJECT_DIR$/scripts/healthcheck.sh" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/plex-first-run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/plex-update.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="13" selection-start-line="23" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/installBinary.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/plex-common.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

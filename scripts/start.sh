@@ -43,9 +43,11 @@ if [ ! -f /etc/app_configured ]; then
     done
 fi
 
+######### This can be removed after everyone is on 1.15
 installedVersion=$(dpkg-query -W -f='${Version}' plexmediaserver 2> /dev/null)
 if [[ ${installedVersion} == "1.14"* ]]; then
     export LD_LIBRARY_PATH=/usr/lib/plexmediaserver
+##################################################################################
 else
     export LD_LIBRARY_PATH=/usr/lib/plexmediaserver/lib
 fi
